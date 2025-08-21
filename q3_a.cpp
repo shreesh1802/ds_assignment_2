@@ -18,7 +18,8 @@ int main() {
     for (int i = 0; i < n - 1; i++)
         cin >> arr[i];
 
-    cout << "Missing number (Linear method): " << findMissingLinear(arr, n) << endl;
+    cout << "Missing number " << findMissingLinear(arr, n) << endl;
     return 0;
 }
+
 
